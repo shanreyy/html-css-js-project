@@ -51,7 +51,7 @@ h2{
     width: 200px;
     height: 50px;
     padding: 10px;
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     border: saddlebrown;
     border-radius: 5px 10px 10px;
@@ -64,4 +64,8 @@ h2{
 #btnnewquote:hover{
     background-color: aqua;
     transition: 0.3s ease-in;
+}
+
+#btnnewquote:active{
+    background-color: rgb(255, 0, 140);
 }
